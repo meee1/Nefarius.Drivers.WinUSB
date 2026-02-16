@@ -1,12 +1,12 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
     <PropertyGroup>
-        <TargetFrameworks>net462;net6.0-windows;net7.0-windows;net8.0-windows;net472-windows;net48-windows;net471</TargetFrameworks>
+        <TargetFrameworks>netstandard2.0;net462;net471;net472</TargetFrameworks>
         <RootNamespace>Nefarius.Drivers.WinUSB</RootNamespace>
         <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
         <PackageTags>WinUSB USB</PackageTags>
         <PackageProjectUrl>https://github.com/nefarius/Nefarius.Drivers.WinUSB</PackageProjectUrl>
         <PackageLicenseExpression>MIT</PackageLicenseExpression>
-        <PackageId>Nefarius.Custom.Drivers.WinUSB</PackageId>
+        <PackageId>Nefarius.Drivers.WinUSB</PackageId>
         <IsPackable>true</IsPackable>
         <RepositoryUrl>https://github.com/nefarius/Nefarius.Drivers.WinUSB</RepositoryUrl>
         <Description>WinUSBNet is a .NET class library that provides easy access to the WinUSB API from C#, VB.NET and other .NET languages.</Description>
